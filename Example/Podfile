@@ -2,8 +2,4 @@ use_frameworks!
 
 target 'WCLogTool_Example' do
   pod 'WCLogTool', :path => '../'
-
-  target 'WCLogTool_Tests' do
-    inherit! :search_paths
-  end
 end
